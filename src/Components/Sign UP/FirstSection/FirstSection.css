@@ -1,0 +1,84 @@
+.Stextarea{
+    position: relative;
+    background-color: rgb(0,63,98);
+    height: 100vh;
+    overflow: hidden;
+}
+.shape1,.shape2,.shape3,.shape4,.shape5{
+    background: rgb(51,101,129);
+}
+.shape1{
+    height: 40px;
+    width: 40px;
+    margin-top: 7vh;
+    margin-left: 26vw;
+    transform: rotate(45deg);
+}
+.shape2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 34vw;
+    margin-top: 7vh;
+    
+}
+
+.shape3{
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 107px solid rgb(51,101,129);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-28deg);
+    margin-left: 24vw;
+    margin-top: 6vh;
+}
+.shape4{
+    height: 20px;
+    width: 50px;
+    transform: rotate(40deg);
+    margin-top: 23vh;
+    margin-left: 21vw;
+}
+.shape5{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: -21vw;
+    margin-top: -16vh;
+}
+.Scontent{
+    position: absolute;
+    top: 26vh;
+    
+    color: white;
+}
+.Scontent h1{
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 55px;
+}
+.Scontent p{
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-left: 4vw;
+    
+}
+.Scontent button{
+    width: 16vw;
+    height:8vh ;
+    border: 2px solid white;
+    background-color: rgb(0,63,98) ;
+    color: white;
+    border-radius: 40px;
+    margin-left: -1vw;
+    font-weight: 500;
+}
+.Scontent button:hover{
+    color:  rgb(0,63,98);
+    background-color: white;
+    transition: .7s ease-in;
+    border-color: white;
+}

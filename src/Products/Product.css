@@ -1,0 +1,43 @@
+
+.cardMain{
+    z-index: -2;
+}
+.card-container{
+    width: 22vw;
+    
+}
+
+.stars{
+    color: rgb(136, 136, 136);
+    height: 30px;
+    width: 30px;
+}
+.likessmain {
+    background-color: rgb(191, 210, 225);
+    color: rgb(63, 60, 60);
+    width: 2vw;
+    border-radius: 50%;
+    height: 4vh ;
+    padding-left: 5px;
+    margin-left: 17vw;
+    margin-top: 3px;
+   
+    
+}
+.likess{
+    position: absolute;
+    top: -9px;
+    
+}
+
+.card img{
+    width: 15vw;
+
+}
+.price{
+    font-weight: 700;
+}
+.footcontent{
+    font-size: 13px;
+    opacity: 75%;
+}

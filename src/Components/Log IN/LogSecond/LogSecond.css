@@ -1,0 +1,108 @@
+
+.Stextarea1{
+    position: relative;
+    background-color: rgb(0,63,98);
+    height: 100vh;
+    overflow: hidden;
+}
+.shape01,.shape02,.shape03,.shape04,.shape05,.shape06,.shape07,.shape08{
+    background: rgb(51,101,129);
+}
+.shape01{
+    height: 20px;
+    width: 50px;
+    transform: rotate(46deg);
+    margin-top: 3vh;
+    margin-left: 23vw;
+
+}
+.shape02{
+    height: 30vh;
+    width: 20vw;
+    transform: rotate(46deg);
+    margin-top: -8vh;
+    margin-left: 29vw;
+}
+.shape03{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: -3vw;
+    margin-top: -17vh;
+}
+.shape04{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 22vw;
+    margin-top: -7vh;
+}
+.shape05{
+    height: 20px;
+    width: 50px;
+    transform: rotate(46deg);
+    margin-top: 23vh;
+    margin-left: 11vw;
+
+}
+.shape06{
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    margin-top: 8vh;
+    margin-left: 23vw;
+
+}
+.shape07{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 7vw;
+    margin-top: 7vh;
+    
+}
+.shape08{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 70px solid rgb(51,101,129);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-20deg);
+    margin-left: 18vw;
+    margin-top: -1vh;
+}
+
+.Scontent1{
+    position: absolute;
+    top: 26vh;
+    color: white;
+}
+.Scontent1 h1{
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 55px;
+}
+.Scontent1 p{
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-left: 4vw;
+    
+}
+.Scontent1 button{
+    width: 16vw;
+    height:8vh ;
+    border: 2px solid white;
+    background-color:transparent ;
+    color: white;
+    border-radius: 40px;
+    margin-left: -1vw;
+    font-weight: 500;
+}
+.Scontent1 button:hover{
+    color:  rgb(0,63,98);
+    background-color: white;
+    transition: .7s ease-in;
+    border-color: white;
+}
